@@ -1,0 +1,4 @@
+ip,abuseipdb_score,abuseipdb_reports,otx_pulses,malicious,otx_error
+8.8.8.8,0,171,0,False,
+1.1.1.1,0,373,0,False,
+185.220.101.1,100,215,,True,"HTTPSConnectionPool(host='otx.alienvault.com', port=443): Read timed out. (read timeout=10)"
