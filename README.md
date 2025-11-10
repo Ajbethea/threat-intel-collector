@@ -1,4 +1,5 @@
 \# Threat Intel Collector (Beginner API Project)
+> 🧠 Automate threat intel lookups using public APIs and flag malicious IPs — built for SOC analysts, cybersecurity students, and blue teamers.
 
 
 
