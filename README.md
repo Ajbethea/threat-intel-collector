@@ -1,4 +1,3 @@
-
 # Threat Intel Collector (Beginner API Project)
 
 This project is a simple, real-world style security automation tool.
@@ -35,7 +34,8 @@ This project simulates a full SOC workflow, starting with raw logs and ending wi
 - Writes structured findings to:
 
 ```bash
-python log_parser.py --config config.json --report_csv output/findings.csv
+python log_parser.py --config config.json --report_csv findings.csv
+
 
 
 
