@@ -1,4 +1,6 @@
-ip
-8.8.8.8
-1.1.1.1
-185.220.101.1
+timestamp,source,type,rule_id,severity,description,ip,user,raw
+2025-11-09T13:22:00,sample_logs/ssh.log,ssh,ssh_failed_logins,high,Multiple failed SSH logins from same IP in short time,185.220.101.1,,Nov  9 13:22:00 server sshd[12345]: Failed password for invalid user admin from 185.220.101.1 port 54321 ssh2
+2025-11-09T13:22:10,sample_logs/ssh.log,ssh,ssh_failed_logins,high,Multiple failed SSH logins from same IP in short time,185.220.101.1,,Nov  9 13:22:10 server sshd[12345]: Failed password for invalid user admin from 185.220.101.1 port 54322 ssh2
+2025-11-09T13:22:20,sample_logs/ssh.log,ssh,ssh_failed_logins,high,Multiple failed SSH logins from same IP in short time,185.220.101.1,,Nov  9 13:22:20 server sshd[12345]: Failed password for invalid user admin from 185.220.101.1 port 54323 ssh2
+2025-11-09T13:22:30,sample_logs/ssh.log,ssh,ssh_failed_logins,high,Multiple failed SSH logins from same IP in short time,185.220.101.1,,Nov  9 13:22:30 server sshd[12345]: Failed password for invalid user admin from 185.220.101.1 port 54324 ssh2
+2025-11-09T13:22:40,sample_logs/ssh.log,ssh,ssh_failed_logins,high,Multiple failed SSH logins from same IP in short time,185.220.101.1,,Nov  9 13:22:40 server sshd[12345]: Failed password for invalid user admin from 185.220.101.1 port 54325 ssh2

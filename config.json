@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "name": "ssh_sample",
+      "path": "sample_logs/ssh.log",
+      "type": "ssh"
+    },
+    {
+      "name": "apache_sample",
+      "path": "sample_logs/apache.log",
+      "type": "apache"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ssh_failed_logins",
+      "description": "Multiple failed SSH logins from same IP in short time",
+      "pattern": "Failed password for",
+      "window_minutes": 5,
+      "threshold": 5,
+      "severity": "high",
+      "type": "ssh"
+    },
+    {
+      "id": "apache_404_burst",
+      "description": "Too many 404s from same IP (possible scan or brute-force scan)",
+      "pattern": " 404 ",
+      "window_minutes": 10,
+      "threshold": 20,
+      "severity": "medium",
+      "type": "apache"
+    }
+  ]
+}
